@@ -1,0 +1,189 @@
+{
+	// Place your snippets for ruby here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"dont_panic": {
+		"prefix": "dopa",
+		"body": "ap 'Dont Panic', color: { string: :red }"
+	},
+	"debugger - lazy": {
+		"prefix": "dbg",
+		"body": "debugger"
+	},
+	"debug_spec": {
+		"prefix": "dbgspec",
+
+		"body": [
+			"it 'will debug the spec' do",
+        "  debugger",
+        "  expect(true).to be true",
+      "end",
+		]
+	},
+	"# TODO": {
+		"prefix": "todo",
+		"body": "# TODO"
+	},
+	"iron_man": {
+		"prefix": "1im",
+		"body": "ap '1 - Iron Man', color: { string: :redish }"
+	},
+	"captain_america": {
+		"prefix": "2im",
+		"body": "ap '2 - Captain America', color: { string: :blue }"
+	},
+	"thor": {
+		"prefix": "3im",
+		"body": "ap '3 - Thor', color: { string: :yellow }"
+	},
+	"incredible_hulk": {
+		"prefix": "4im",
+		"body": "ap '4 - Incredible Hulk', color: { string: :green }"
+	},
+	"black_widow": {
+		"prefix": "5im",
+		"body": "ap '5 - Black Widow', color: { string: :gray }"
+	},
+	"spider_man": {
+		"prefix": "6im",
+		"body": "ap '6 - Spiderman', color: { string: :blueish }"
+	},
+	"black_panther": {
+		"prefix": "7im",
+		"body": "ap '7 - Black Panther', color: { string: :purpleish }"
+	},
+	"ant_man": {
+		"prefix": "8im",
+		"body": "ap '8 - Ant Man', color: { string: :white }"
+	},
+	"hawkeye": {
+		"prefix": "9im",
+		"body": "ap '9 - Hawkeye', color: { string: :pale }"
+	},
+	"scarlet_witch": {
+		"prefix": "10im",
+		"body": "ap '10 - Scarlet Witch', color: { string: :red }"
+	},
+	"frozen_string_literal": {
+		"prefix": "fsl",
+		"body": "# frozen_string_literal: true"
+	},
+	"require_spec_helper": {
+		"prefix": "rqsh",
+		"body": "require 'spec_helper'"
+	},
+	"yard_character_option": {
+		"prefix": "yrdch",
+		"body": "<b></b>"
+	},
+	"rubocop disabling Metrics/BlockLength": {
+		"prefix": "rcpblocklength",
+		"body": "# rubocop:disable Metrics/BlockLength"
+	},
+  "rubocop disabling Metrics/MethodLength": {
+		"prefix": "rcpmethodlength",
+		"body": "# rubocop:disable Metrics/MethodLength"
+	},
+  "rubocop disabling Metrics/AbcSize": {
+		"prefix": "rcpmethodabcsize",
+		"body": "# rubocop:disable Metrics/AbcSize"
+	},
+  "rubocop disabling Style/StructInheritance": {
+		"prefix": "rcpstructinheritance",
+		"body": "# rubocop:disable Style/StructInheritance"
+	},
+  "rubocop disabling Performance/Count": {
+		"prefix": "rcpperformancecount",
+		"body": "# rubocop:disable Performance/Count"
+	},
+  "rubocop disabling Style/RegexpLiteral": {
+		"prefix": "rcpstyleregexliteral",
+		"body": "# rubocop:disable Style/RegexpLiteral"
+	},
+  "rubocop disabling Style/DoubleNegation": {
+		"prefix": "rcpstyledoublenegation",
+		"body": "# rubocop:disable Style/DoubleNegation"
+	},
+  "rubocop disabling Metrics/ClassLength": {
+		"prefix": "rcpclasslength",
+		"body": "# rubocop:disable Metrics/ClassLength"
+	},
+  "rubocop disabling Metrics/CyclomaticComplexity": {
+		"prefix": "rcpmetricscyclomaticcomplexlity",
+		"body": "# rubocop:disable Metrics/CyclomaticComplexity"
+	},
+	"rubocop disabling Metrics/PerceivedComplexity": {
+		"prefix": "rcpmetricsperceivedcomplexlity",
+		"body": "# rubocop:disable Metrics/PerceivedComplexity"
+	},
+  "rubocop disabling Style/FormatString": {
+		"prefix": "rcpstyleformatstring",
+		"body": "# rubocop:disable Style/FormatString"
+	},
+  "rubocop disabling Style/Documentation": {
+		"prefix": "rcpstyledocumentation",
+		"body": "# rubocop:disable Style/Documentation"
+	},
+	"rubocop disabling Style/ClassAndModuleChildren": {
+		"prefix": "rcpstyleclassandmodulechildren",
+		"body": "# rubocop:disable Style/ClassAndModuleChildren"
+	},
+	"rubocop disabling Style/Lambda": {
+		"prefix": "rcpstylestylelambda",
+		"body": "# rubocop:disable Style/Lambda"
+	},
+	"rubocop disabling Style/GuardClause": {
+		"prefix": "rcpstyleguardclause",
+		"body": "# rubocop:disable Style/GuardClause"
+	},
+	"rubocop disabling Style/Alias": {
+		"prefix": "rcpstylealias",
+		"body": "# rubocop:disable Style/Alias"
+	},
+	"rubocop disabling Naming/VariableNumber": {
+		"prefix": "rcpnamingvariablenumber",
+		"body": "# rubocop:disable Naming/VariableNumber"
+	},
+  "rubocop freeze Array": {
+		"prefix": "frz",
+		"body": ".freeze"
+	},
+	"default attribute logic code": {
+		"prefix" : "attr_code",
+		"body": [
+			"# @param panel [Panel] the instance of the panel being considered",
+			"# @param concept_record_number [Integer] the concept record number under consideration",
+			"# @param remote_string [String] the original remote string received from the panel, for parsing",
+			"def initialize(panel_object, concept_record_number, remote_string)",
+			"  $0@panel = panel_object",
+			"  $0@record_number = concept_record_number",
+			"  $0@remote_string = remote_string",
+			"end",
+		"",
+			"# Method for defining the expected length of the field in the remote string",
+			"def expected_field_length",
+			"  $0RemoteString::SINGLE_CHARACTER_FIELD_LENGTH",
+			"end",
+		"",
+			"# Method to extract the concept attribute's value from the provided remote string",
+			"def parse",
+			"  $0# TODO",
+			"end",
+		"",
+			"# Method to provide the default value",
+			"def default_value",
+		"",
+			"end"
+		]
+	}
+}
