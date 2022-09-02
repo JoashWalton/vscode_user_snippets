@@ -14,16 +14,20 @@
 			"it 'will debug the spec' do",
         "  debugger",
         "  expect(true).to be true",
-      "end",
+      "end"
 		]
 	},
 	"# TODO": {
 		"prefix": "todo",
 		"body": "# TODO"
 	},
+	"in example": {
+		"prefix": "ie.",
+		"body": "i.e.,"
+	},
 	"iron_man": {
 		"prefix": "1im",
-		"body": "ap '1 - Iron Man', color: { string: :redish }"
+		"body": "ap '1 - Iron Man', color: { string: :red }"
 	},
 	"captain_america": {
 		"prefix": "2im",
@@ -47,7 +51,7 @@
 	},
 	"black_panther": {
 		"prefix": "7im",
-		"body": "ap '7 - Black Panther', color: { string: :purpleish }"
+		"body": "ap '7 - Black Panther', color: { string: :purple }"
 	},
 	"ant_man": {
 		"prefix": "8im",
@@ -59,7 +63,47 @@
 	},
 	"scarlet_witch": {
 		"prefix": "10im",
-		"body": "ap '10 - Scarlet Witch', color: { string: :red }"
+		"body": "ap '10 - Scarlet Witch', color: { string: :redish }"
+	},
+	"professor_x": {
+		"prefix": "11im",
+		"body": "ap '11 - Professor X', color: { string: :pale }"
+	},
+	"phoneix": {
+		"prefix": "12im",
+		"body": "ap '12 - Phoenix', color: { string: :gray }"
+	},
+	"falcon": {
+		"prefix": "13im",
+		"body": "ap '13 - Falcon', color: { string: :cyan }"
+	},
+	"gamora": {
+		"prefix": "14im",
+		"body": "ap '14 - Gamora', color: { string: :green }"
+	},
+	"doctor_strange": {
+		"prefix": "15im",
+		"body": "ap '15 - Doctor Strange', color: { string: :redish }"
+	},
+	"star_lord": {
+		"prefix": "16im",
+		"body": "ap '16 - Star Lord', color: { string: :blue }"
+	},
+	"wolverine": {
+		"prefix": "17im",
+		"body": "ap '17 - Wolverine', color: { string: :yellow }"
+	},
+	"silver_surfer": {
+		"prefix": "18im",
+		"body": "ap '18 - Silver Surfer', color: { string: :gray }"
+	},
+	"daredevil": {
+		"prefix": "19im",
+		"body": "ap '19 - Daredevil', color: { string: :redish }"
+	},
+	"captain_marvel": {
+		"prefix": "20im",
+		"body": "ap '20 - Captain Marvel', color: { string: :blue }"
 	},
 	"frozen_string_literal": {
 		"prefix": "fsl",
@@ -68,6 +112,10 @@
 	"require_spec_helper": {
 		"prefix": "rqsh",
 		"body": "require 'spec_helper'"
+	},
+	"require_test_helper": {
+		"prefix": "rqts",
+		"body": "require 'test_helper'"
 	},
 	"yard_character_option": {
 		"prefix": "yrdch",
@@ -141,9 +189,21 @@
 		"prefix": "rcpnamingvariablenumber",
 		"body": "# rubocop:disable Naming/VariableNumber"
 	},
+	"rubocop disabling Common Two": {
+		"prefix": "rcpnamingcommontwo",
+		"body": "# rubocop:disable Metrics/AbcSize, Metrics/MethodLength"
+	},
+	"rubocop disabling Common Four": {
+		"prefix": "rcpnamingcommonfour",
+		"body": "# rubocop:disable Metrics/AbcSize, Metrics/PerceivedComplexity, Metrics/MethodLength, Metrics/CyclomaticComplexity"
+	},
   "rubocop freeze Array": {
 		"prefix": "frz",
 		"body": ".freeze"
+	},
+	"ruby/debug": {
+		"prefix": "bb",
+		"body": "binding.break"
 	},
 	"default attribute logic code": {
 		"prefix" : "attr_code",
@@ -172,5 +232,9 @@
 		"",
 			"end"
 		]
+	},
+	"rspec/rubocop disabling RSpec/NestedGroups": {
+		"prefix": "rcprspecnestedgroup",
+		"body": "# rubocop:disable RSpec/NestedGroups"
 	}
 }
